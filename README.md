@@ -1,32 +1,78 @@
 <H1 align="center">Simulation et Adaptation des feux de signalisation </H1>
 
-- Lien Gihub : https://github.com/Ha-lm31/Adapter-Traffic.git 
 
-<H2> Etape de liaison entre PC et github </H2>
+- Depot github : 
+[`Github Repo Link`](https://github.com/Ha-lm31/TrackingCount.git)
+[`Github Repo Link`](https://github.com/Ha-lm31/PFE-Module1.git)
 
-- cd C:\Users\ot\Desktop\Adapter-Traffic
-- git init
-- git add .
-- git status
-- git commit -m "First commit"
-- git branch -M main
-- git remote add origin https://github.com/Ha-lm31/Adapter-Traffic.git
-- git remote -v
-- git push -u origin main / git push -u origin main --force
-- - 
-- git status
-- git add .
-- git commit -m ".... commit"
-    - git commit -m "Second commit"
-- git push -u origin main / git push -u origin main --force
+<H2> Etape de liaison entre PC et github </H2> 
+chemin :
+C:\Users\ot\Desktop\TrackingCount
+C:\Users\ot\Desktop\PFE-Module1
 
-<H2> Modification </H2>
+1. 
+'''
+cd <chemin>
+'''
+2. 
+'''
+git init
+'''
+3. 
+'''
+git add .
+'''
+4. 
+'''
+git status
+'''
+5. 
+'''
+git commit -m "First commit"
+'''
+6. 
+'''
+git branch -M main
+'''
+7. 
+'''
+git remote add origin <Depot github>
+'''
+8. 
+'''
+git remote -v
+'''
+9. 
+'''
+git push -u origin main
+'''
+ou 
+'''
+git push -u origin main --force
+'''
+- - Si tu veux modifier le contenu du dépot, suivi si étape : 
+1. 
+'''
+git add .
+'''
+2. 
+'''
+git status
+'''
+3. 
+'''
+git commit -m "... commit"
+'''
+4. 
+'''
+git push -u origin main
+'''
+ou
+'''
+git push -u origin main --force
+'''
 
-- Modifier le fichier "YOLOv8_Detection_Tracking_CustomData_Complete.ipynb" dans "V1-yolov8_deepsort.ipynb"
-- The key public of roboflow : 9j4H4mvkoQZ7DQ8REN58
-- 'requirements.txt': 
-<H2> Information des fichiers </H2>
+<H2>Modification 'requirement.txt'</H2>
 
-- 'requirements.txt' : les installations
-- 'setup.py' : appliquer sur 'requirements.txt' et installer ultralytics
-- 
+1. Ajouter : pipdeptree, roboflow
+2. Supprimer : torch
